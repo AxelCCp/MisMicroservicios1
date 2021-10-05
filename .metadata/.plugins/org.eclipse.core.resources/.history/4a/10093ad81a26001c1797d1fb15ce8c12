@@ -1,0 +1,35 @@
+package com.micro.springboot.app.donkey.model;
+
+public class item {
+
+    public item() {
+    }
+
+    public item(Productos productos, Integer cantidad) {
+        this.productos = productos;
+        this.cantidad = cantidad;
+    }
+
+    public Productos getProductos() {
+        return productos;
+    }
+
+    public void setProductos(Productos productos) {
+        this.productos = productos;
+    }
+
+    public Integer getCantidad() {
+        return cantidad;
+    }
+
+    public void setCantidad(Integer cantidad) {
+        this.cantidad = cantidad;
+    }
+
+    private Double getTotal(){
+        return cantidad.doubleValue() * productos.getPrecio();
+    }
+
+    private Productos productos;
+    private Integer cantidad;
+}

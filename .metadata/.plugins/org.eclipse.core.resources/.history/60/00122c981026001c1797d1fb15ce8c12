@@ -1,0 +1,20 @@
+package com.micro.springboot.app.donkey.model.service;
+
+import com.micro.springboot.app.donkey.model.item;
+
+
+import java.util.List;
+
+@Service
+public class ServiceDonkeyImpl implements IServiceIDonkey {
+
+    @Override
+    public List<item> findAll() {
+        return null;
+    }
+
+    @Override
+    public item findById(Long id) {
+        return null;
+    }
+}

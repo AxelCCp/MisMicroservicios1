@@ -1,0 +1,5 @@
+package com.micro.springboot.app.donkey.controller;
+
+public class ControllerDonkey1 {
+
+}
