@@ -1,6 +1,0 @@
-package com.micro.springboot.app.donkey;
-
-
-@Configuration
-public class AppConfigDonkey {
-}

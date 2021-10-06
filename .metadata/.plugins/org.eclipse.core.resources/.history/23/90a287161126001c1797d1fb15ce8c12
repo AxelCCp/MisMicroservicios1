@@ -1,7 +1,0 @@
-package com.micro.springboot.app.donkey;
-
-import org.springframework.context.annotation.Configuration;
-
-@Configuration
-public class AppConfigDonkey {
-}
